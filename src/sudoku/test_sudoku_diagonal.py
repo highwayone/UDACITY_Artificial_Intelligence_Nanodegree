@@ -31,7 +31,7 @@ grid1 = '\
 '
 solve(grid1)
 
-#with open('./sudokus/sudokus_diagonal.csv', 'r') as f:
-#    for line in f:
-#        #print(line.rstrip('\n'))
-#        solve(line.rstrip('\n'))
+with open('./sudokus/sudokus_diagonal.csv', 'r') as f:
+    for line in f:
+        #print(line.rstrip('\n'))
+        solve(line.rstrip('\n'))
