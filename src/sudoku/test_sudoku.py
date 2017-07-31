@@ -22,3 +22,8 @@ grid2 = '4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2....
 
 solve(grid1)
 solve(grid2)
+
+with open('./sudokus/sudokus.csv', 'r') as f:
+    for line in f:
+        #print(line.rstrip('\n'))
+        solve(line.rstrip('\n'))
