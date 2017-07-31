@@ -1,0 +1,11 @@
+*.txt
+*.log
+*.err
+*.bak
+*.xxx
+*.csv
+*.swp
+*.spec
+*.bak
+*.pyc
+*.exe
